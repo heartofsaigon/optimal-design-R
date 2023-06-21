@@ -1,7 +1,7 @@
 
-rm(list = ls()) 
+rm(list = ls())  
 #load(file = "new-setup\\model1\\model1.RData")
-set.seed(1111)
+set.seed(2222)
 # beta ~ N(7,3), mu1 ~ N(0, 0.003), mu2 ~ N(0, 0.03)
 beta_mean = 7; beta_var = 3
 mu1_mean = 0; mu1_var = 0.003
